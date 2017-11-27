@@ -16,7 +16,7 @@ function listAllTasks(todoArray: Array<String>) {
 function deleteTask(todotodelete) {
   const index = todos.indexOf(todotodelete);
   // if (index > -1) {
-    todos.splice(index, 1);
+  todos.splice(index, 1);
   // }
 }
 // Execution

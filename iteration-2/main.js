@@ -1,7 +1,7 @@
 "use strict";
 exports.__esModule = true;
 // 1. Create a class Todo that implements the Interface created before.
-var TodoList = (function () {
+var TodoList = /** @class */ (function () {
     function TodoList() {
         this.todos = [];
     }
@@ -10,7 +10,7 @@ var TodoList = (function () {
     };
     TodoList.prototype.listAllTasks = function () {
         this.todos.forEach(function (todo) {
-            console.log(todo.title);
+            console.log(todo);
         });
     };
     TodoList.prototype.deleteTask = function (todo) {
